@@ -1,84 +1,42 @@
-# Terminal Portfolio Website by Sat Naing
+# 终端风文件阅读器
 
-![Terminal Portfolio Website by Sat Naing](https://user-images.githubusercontent.com/53733092/194220661-e2ff8b4c-f64a-4b64-a836-c52fae6bbcda.png)
+## 简介
 
-![ts](https://badgen.net/badge/Built%20With/TypeScript/blue?style=flat-square)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/81fdb91d-c06f-46c2-b18d-dfc6f090f281/deploy-status)](https://app.netlify.com/sites/terminal-sn/deploys)
-![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)
+该项目是一个终端风格的文件阅读器，目前正在开发中。
 
-My perfolio website in terminal version developed with React, TypeScript and Styled-Components. Multiple themes supported and keyboard shortcuts can be used for some functionalities.
+本项目基本基于 [satnaing/terminal-portfolio](https://github.com/satnaing/terminal-portfolio)，并在其的基础上增加一些功能
 
-Blog Post: https://satnaing.dev/blog/posts/how-do-i-develop-my-terminal-portfolio-website-with-react
+## 使用说明
 
-## Features
+如果你想使用该项目，可以按照以下步骤进行：
 
-- Responsive Design 📱💻
-- Multiple themes 🎨
-- Autocomplete feature ✨ (TAB | Ctrl + i)
-- Go previous and next command ⬆️⬇️
-- View command history 📖
-- PWA and Offline Support 🔥
-- Well-tested ✅
+1. 克隆项目：
 
-## Tech Stack
+    ```bash
+    git clone git@github.com:terminal-style-file-explorer/client-builder.git
+    ```
 
-**Frontend** - [React](https://reactjs.org/), [TypeScript](https://www.typescriptlang.org/)  
-**Styling** - [Styled-Components](https://styled-components.com/)  
-**UI/UX** - [Figma](https://figma.com/)  
-**State Management** - [ContextAPI](https://reactjs.org/docs/context.html)  
-**Testing** - [Vitest](https://vitest.dev/), [React Testing Library](https://testing-library.com/)  
-**Deployment** - [Netlify](https://app.netlify.com/)
+2. 进入项目目录：
 
-## Multiple Themes
+    ```bash
+    cd client-builder
+    ```
 
-Currently, this website supports 6 themes. Type `themes` in the terminal for more info.
-![terminal-portfolio-themes](https://user-images.githubusercontent.com/53733092/194221801-94f1c28b-4865-4b7f-a73e-d41132519bea.png)
+3. 移除原始远程仓库：
 
-## Lighthouse Score
+    ```bash
+    git remote remove origin
+    ```
 
-<p align="center">
-<img width="710" alt="Sat Naing Terminal Lighthouse Score" src="public/lighthouse-result.svg">
-</p>
+4. 安装依赖：
 
-## Running Locally
+    ```bash
+    npm install
+    ```
 
-Clone the project
+5. 运行开发服务器：
 
-```bash
-git clone https://github.com/satnaing/terminal-portfolio.git
-```
+    ```bash
+    npm run dev
+    ```
 
-Go to the project directory
-
-```bash
-cd terminal-portfolio
-```
-
-Remove remote origin
-
-```bash
-git remote remove origin
-```
-
-Install dependencies
-
-```bash
-npm install
-```
-
-Start the server
-
-```bash
-npm run dev
-```
-
-## Inspiration and Credits
-
-Here are some inspiration for this kind of terminal website. Only some features and functionalities are inspired by these following websites. All codes are written on my own.
-
-- [term m4tt72](https://term.m4tt72.com/)
-- [Forrest](https://fkcodes.com/)
-
-## Author
-
-- [@satnaing](https://satnaing.dev)
