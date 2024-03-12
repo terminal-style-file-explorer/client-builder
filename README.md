@@ -6,6 +6,8 @@
 
 本项目基本基于 [satnaing/terminal-portfolio](https://github.com/satnaing/terminal-portfolio)，并在其的基础上增加一些功能
 
+~~也许会有release~~
+
 ## 使用说明
 
 如果你想使用该项目，可以按照以下步骤进行：
