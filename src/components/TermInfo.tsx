@@ -4,7 +4,7 @@ const TermInfo = () => {
 const name = "";
   return (
     <Wrapper>
-      <User>{name ? name : "visitor"}</User>@<WebsiteName>terminal.satnaing.dev</WebsiteName>:~$
+      <User>{name ? name : "visitor"}</User>@:~$
     </Wrapper>
   );
 };
